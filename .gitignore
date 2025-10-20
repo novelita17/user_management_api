@@ -1,0 +1,66 @@
+# ===============================
+# Node.js dependencies & runtime
+# ===============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ===============================
+# Environment & Config Files
+# ===============================
+.env
+.env.local
+.env.*.local
+
+# ===============================
+# Build / Output directories
+# ===============================
+dist/
+build/
+coverage/
+uploads/
+tmp/
+logs/
+
+# ===============================
+# Cloudinary temporary uploads
+# ===============================
+cloudinary_uploads/
+public/uploads/
+src/uploads/
+
+# ===============================
+# Database or system files
+# ===============================
+*.sqlite
+*.db
+*.sql
+.DS_Store
+Thumbs.db
+
+# ===============================
+# OS generated files
+# ===============================
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+.idea/
+.vscode/
+*.iml
+
+# ===============================
+# Postman & API documentation
+# ===============================
+postman_collection.json
+postman_environment.json
+
+# ===============================
+# Others
+# ===============================
+*.zip
+*.rar
+*.7z
